@@ -94,7 +94,7 @@ while True:
         pause_rect = pause.get_rect(center=(600, 120))
         continuar4_rect = continuar4.get_rect(center=(600, 320))
         quit_rect = quit.get_rect(center=(600, 520))
-        volume_off_rect = volume_off.get_rect(center=(1250,30))
+        volume_off_rect = volume_off.get_rect(center=(30,30))
         tela.blit(volume_off, volume_off_rect)
         tela.blit(pause, pause_rect)
         tela.blit(continuar4, continuar4_rect)
